@@ -17,7 +17,7 @@ class Latest extends React.Component {
                 <Row>
                     <Col>
                     
-                    <Card style={{ width: '20rem' }}>
+                    <Card style={{ width: '22rem' }}>
   <Card.Img variant="top" src={require('./img/jeffrey-wright_by_gs1.jpg')} />
   <Card.Body>
     <Card.Title>Jeffrey Wright</Card.Title>
@@ -32,7 +32,7 @@ class Latest extends React.Component {
 
                     <Col>
                     
-                    <Card style={{ width: '20rem' }}>
+                    <Card style={{ width: '22rem' }}>
   <Card.Img variant="top" src={require('./img/jessica-care-moore-gannett.png')} />
   <Card.Body>
     <Card.Title>Jessica Care Moore</Card.Title>
@@ -47,7 +47,7 @@ class Latest extends React.Component {
 
                     <Col>
                     
-                    <Card style={{ width: '20rem' }}>
+                    <Card style={{ width: '22rem' }}>
   <Card.Img variant="top" src={require('./img/tayarisha_poe.jpg')} />
   <Card.Body>
     <Card.Title>Tayarisha Poe</Card.Title>
