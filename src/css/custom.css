@@ -18,3 +18,8 @@
 .card-text {
     font-size: 1rem;
 }
+
+.col {
+    padding-left: 5px;
+    padding-right: 5px;
+}
