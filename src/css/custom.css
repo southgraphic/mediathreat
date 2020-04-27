@@ -4,6 +4,10 @@
     background-color: #00010D !important;
 }
 
+.jumbotron {
+    margin-bottom: 30px;
+}
+
 .jumbo-bg {
 
     background: url('../components/img/hero.png') no-repeat center center fixed;
