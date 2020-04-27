@@ -30,9 +30,6 @@ class Latest extends React.Component {
 
                     </Col>
 
-                </Row>
-
-                <Row>
                     <Col>
                     
                     <Card style={{ width: '18rem' }}>
@@ -47,6 +44,11 @@ class Latest extends React.Component {
 </Card>
 
                     </Col>
+
+                </Row>
+
+                <Row>
+                    
 
                 </Row>
                 
