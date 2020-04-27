@@ -22,8 +22,7 @@ class Latest extends React.Component {
   <Card.Body>
     <Card.Title>Jeffrey Wright</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+    He’s an amazing actor who can play any role—right now he’s on HBO’s Westworld and making the new Batman. And he’s a Brooklyn guy who’s working on helping some great local restaurants get meals to several Brooklyn hospitals.
     </Card.Text>
     <Button variant="primary">Read more</Button>
   </Card.Body>
@@ -39,9 +38,9 @@ class Latest extends React.Component {
                     <Card style={{ width: '18rem' }}>
   <Card.Img variant="top" src={require('./img/jessica-care-moore-gannett.png')} />
   <Card.Body>
-    <Card.Title>Jeffrey Wright</Card.Title>
+    <Card.Title>Jessica Care Moore</Card.Title>
     <Card.Text>
-    He’s an amazing actor who can play any role—right now he’s on HBO’s Westworld and making the new Batman. And he’s a Brooklyn guy who’s working on helping some great local restaurants get meals to several Brooklyn hospitals.
+    his is a Friday Patreon Exclusive! Go to patreon.com/toureshow to hear the whole ep! For $5 a month you get 4 Patreon Exclusives a month! Patreon.com/toureshow Instagram: @toureshow Twitter: @toure For information regarding your data privacy, visit <a href="http://acast.com/privacy">Privacy</a>
     </Card.Text>
     <Button variant="primary">Read more</Button>
   </Card.Body>
