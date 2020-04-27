@@ -18,7 +18,7 @@ class NavBar extends React.Component {
               <Nav.Link href="#pricing">About</Nav.Link>
             </Nav>
             <Form inline>
-              <h5>Search</h5>
+              <h5>Search&nbsp;</h5>
               <FormControl type="text" placeholder="Search Episodes" className="mr-sm-2" />
               <Button variant="outline-info">Search</Button>
             </Form>
