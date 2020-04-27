@@ -17,7 +17,7 @@ class Latest extends React.Component {
                 <Row>
                     <Col>
                     
-                    <Card style={{ width: '18rem' }}>
+                    <Card style={{ width: '20rem' }}>
   <Card.Img variant="top" src={require('./img/jeffrey-wright_by_gs1.jpg')} />
   <Card.Body>
     <Card.Title>Jeffrey Wright</Card.Title>
@@ -32,7 +32,7 @@ class Latest extends React.Component {
 
                     <Col>
                     
-                    <Card style={{ width: '18rem' }}>
+                    <Card style={{ width: '20rem' }}>
   <Card.Img variant="top" src={require('./img/jessica-care-moore-gannett.png')} />
   <Card.Body>
     <Card.Title>Jessica Care Moore</Card.Title>
@@ -47,12 +47,13 @@ class Latest extends React.Component {
 
                     <Col>
                     
-                    <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src={require('./img/jessica-care-moore-gannett.png')} />
+                    <Card style={{ width: '20rem' }}>
+  <Card.Img variant="top" src={require('./img/tayarisha_poe.jpg')} />
   <Card.Body>
     <Card.Title>Tayarisha Poe</Card.Title>
     <Card.Text>
-    Tayarisha Poe is the director of Selah And The Spades (on Amazon) which is a brilliant film about cliques in a private school and the badass Black girl who runs the whole social ecosystem. For information regarding your data privacy, visit <a href="http://acast.com/privacy">Privacy</a>
+    Tayarisha Poe is the director of Selah And The Spades (on Amazon) which is a brilliant film about cliques in a private school and the badass Black girl who runs the whole social ecosystem. 
+    {/* For information regarding your data privacy, visit <a href="http://acast.com/privacy">Privacy</a> */}
     </Card.Text>
     <Button variant="primary">Read more</Button>
   </Card.Body>
