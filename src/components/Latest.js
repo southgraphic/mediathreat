@@ -64,7 +64,20 @@ class Latest extends React.Component {
                 </Row>
 
                 <Row>
+                <Col>
                     
+                    <Card style={{ width: '22rem' }}>
+  <Card.Img variant="top" src={require('./img/mitchell_s_jackson.jpg')} />
+  <Card.Body>
+    <Card.Title>Mitchell S. Jackson</Card.Title>
+    <Card.Text>
+    This is a Friday Patreon Exclusive! Go to patreon.com/toureshow to hear the whole ep! For $5 a month you get 4 Patreon Exclusives a month! Patreon.com/toureshow Instagram: @toureshow Twitter: @toure &nbsp; 
+    </Card.Text>
+    <Button variant="primary">Read more</Button>
+  </Card.Body>
+</Card>
+
+                    </Col>
 
                 </Row>
                 
