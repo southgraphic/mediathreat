@@ -1,0 +1,12 @@
+/* Custom styles for Toure Show Podcast site */
+
+.bg-dark {
+    background-color: #00010D !important;
+}
+
+.jumbo-bg {
+
+    background: url('../components/img/hero.png') no-repeat center center fixed;
+    background-size: cover;
+   
+}
