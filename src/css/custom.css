@@ -11,6 +11,10 @@
    
 }
 
-.card-text {
+.card-text, .cart-title {
     color: #00010D;
+}
+
+.card-text {
+    font-size: 1rem;
 }

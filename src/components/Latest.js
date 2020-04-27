@@ -45,6 +45,21 @@ class Latest extends React.Component {
 
                     </Col>
 
+                    <Col>
+                    
+                    <Card style={{ width: '18rem' }}>
+  <Card.Img variant="top" src={require('./img/jessica-care-moore-gannett.png')} />
+  <Card.Body>
+    <Card.Title>Tayarisha Poe</Card.Title>
+    <Card.Text>
+    Tayarisha Poe is the director of Selah And The Spades (on Amazon) which is a brilliant film about cliques in a private school and the badass Black girl who runs the whole social ecosystem. For information regarding your data privacy, visit <a href="http://acast.com/privacy">Privacy</a>
+    </Card.Text>
+    <Button variant="primary">Read more</Button>
+  </Card.Body>
+</Card>
+
+                    </Col>
+
                 </Row>
 
                 <Row>
