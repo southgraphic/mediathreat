@@ -41,8 +41,7 @@ class Latest extends React.Component {
   <Card.Body>
     <Card.Title>Jeffrey Wright</Card.Title>
     <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
+    He’s an amazing actor who can play any role—right now he’s on HBO’s Westworld and making the new Batman. And he’s a Brooklyn guy who’s working on helping some great local restaurants get meals to several Brooklyn hospitals.
     </Card.Text>
     <Button variant="primary">Read more</Button>
   </Card.Body>
