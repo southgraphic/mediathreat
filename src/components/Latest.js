@@ -40,7 +40,7 @@ class Latest extends React.Component {
   <Card.Body>
     <Card.Title>Jessica Care Moore</Card.Title>
     <Card.Text>
-    his is a Friday Patreon Exclusive! Go to patreon.com/toureshow to hear the whole ep! For $5 a month you get 4 Patreon Exclusives a month! Patreon.com/toureshow Instagram: @toureshow Twitter: @toure For information regarding your data privacy, visit <a href="http://acast.com/privacy">Privacy</a>
+    This is a Friday Patreon Exclusive! Go to patreon.com/toureshow to hear the whole ep! For $5 a month you get 4 Patreon Exclusives a month! Patreon.com/toureshow Instagram: @toureshow Twitter: @toure For information regarding your data privacy, visit <a href="http://acast.com/privacy">Privacy</a>
     </Card.Text>
     <Button variant="primary">Read more</Button>
   </Card.Body>
