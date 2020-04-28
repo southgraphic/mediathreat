@@ -107,6 +107,24 @@ class Latest extends React.Component {
 
                     </Col>
 
+                    <Col>
+                    
+                    <Card style={{ width: '22rem' }}>
+  <Card.Img variant="top" src={require('./img/cops-coronajpg')} />
+  <Card.Body>
+    <Card.Title>Policing During Corona </Card.Title>
+    <Card.Subtitle>Wed, 08 Apr 2020 07:03 GMT</Card.Subtitle>
+    <Card.Text>
+    In the frightening era of Coronavirus, the NYPD are on the front lines helping fight this battle. My friend Lt. Edwin Raymond polices in Brooklyn and says he normally encounters 3 dead bodies a week but nowadays he’s seeing 9 or 10 dead bodies a week.
+    {/* For information regarding your data privacy, visit <a href="http://acast.com/privacy">Privacy</a> */}
+    </Card.Text>
+    <ExpandBlurb />
+    {/* <Button variant="secondary">Read more</Button> */}
+  </Card.Body>
+</Card>
+
+                    </Col>
+
                 </Row>
                 
             </Container>
