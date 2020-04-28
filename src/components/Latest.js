@@ -3,6 +3,30 @@ import ReactDOM from 'react-dom';
 import jeffrey from './img/jeffrey-wright_by_gs1.jpg';
 import { Button, Card, Col, Container, Image, Row } from 'react-bootstrap';
 
+function blurbText() {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <>
+      <Button
+        onClick={() => setOpen(!open)}
+        aria-controls="additional-text"
+        aria-expanded={open}
+      >
+        click
+      </Button>
+      <Collapse in={open}>
+        <div id="blurb-text">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
+          labore wes anderson cred nesciunt sapiente ea proident.
+        </div>
+      </Collapse>
+    </>
+  );
+}
+
+render(<blurbText />);
 
 class Latest extends React.Component {
 
