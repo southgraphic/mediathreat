@@ -1,32 +1,7 @@
-import React from 'react';
+import React from 'react'; 
 import ReactDOM from 'react-dom';
-import { Button, Card, Col, Container, Image, Row } from 'react-bootstrap';
-
-function blurbText() {
-  const [open, setOpen] = useState(false);
-
-  return (
-    <>
-      <Button
-        onClick={() => setOpen(!open)}
-        aria-controls="additional-text"
-        aria-expanded={open}
-      >
-        click
-      </Button>
-      <Collapse in={open}>
-        <div id="blurb-text">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-          terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
-          labore wes anderson cred nesciunt sapiente ea proident.
-        </div>
-      </Collapse>
-    </>
-  );
-}
-
-render(<blurbText />);
-
+import ExpandBlurb from './ExpandBlurb.js'
+import { Badge, Button, Card, Col, Collapse, Container, Image, Row } from 'react-bootstrap';
 class Latest extends React.Component {
 
     render()
@@ -35,12 +10,12 @@ class Latest extends React.Component {
         return (
 
             <div>
-            <Container fluid>
+            <Container fluid className="news-section">
 
               <Row>
                 <Col>
                
-              Latest Podcasts
+              <h2>Latest Podcasts<Badge variant="info">NEW</Badge></h2>
                 </Col>
               </Row>
             </Container>
@@ -55,10 +30,11 @@ class Latest extends React.Component {
     <Card.Title>Russel Hornsby -- I Make it Funky </Card.Title>
     <Card.Subtitle>Friday, 24 Apr 2020</Card.Subtitle>
     <Card.Text>
+      
     This is a Friday Patreon Exclusive! Go to patreon.com/toureshow to hear the whole ep! For $5 a month you get 4 Patreon Exclusives a month! Patreon.com/toureshow Instagram: @toureshow Twitter: @toure For information regarding your data privacy, visit <a href="http://acast.com/privacy">Privacy</a>
     {/* For information regarding your data privacy, visit <a href="http://acast.com/privacy">Privacy</a> */}
     </Card.Text>
-    <Button variant="primary">Read more</Button>
+    <ExpandBlurb/>
   </Card.Body>
 </Card>
 
