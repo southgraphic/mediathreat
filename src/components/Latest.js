@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import jeffrey from './img/jeffrey-wright_by_gs1.jpg';
 import { Button, Card, Col, Container, Image, Row } from 'react-bootstrap';
 
 // function blurbText() {
@@ -43,7 +42,7 @@ class Latest extends React.Component {
                 <Col>
                     
                     <Card style={{ width: '22rem' }}>
-  <Card.Img variant="top" src={require('./img/russell-hornsby.jpg')} />
+  <Card.Img variant="top" src={require('./img/russell-hornsby2.jpg')} />
   <Card.Body>
     <Card.Title>Russel Hornsby -- I Make it Funky </Card.Title>
     <Card.Subtitle>Friday, 24 Apr 2020</Card.Subtitle>
