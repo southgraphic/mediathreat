@@ -19,12 +19,12 @@ class Latest extends React.Component {
                 <Col>
                     
                     <Card style={{ width: '22rem' }}>
-  <Card.Img variant="top" src={require('./img/tayarisha_poe.jpg')} />
+  <Card.Img variant="top" src={require('./img/russell-hornsby.jpg')} />
   <Card.Body>
     <Card.Title>Russel Hornsby -- I Make it Funky </Card.Title>
     <Card.Subtitle>Friday, 24 Apr 2020</Card.Subtitle>
     <Card.Text>
-    Tayarisha Poe is the director of Selah And The Spades (on Amazon) which is a brilliant film about cliques in a private school and the badass Black girl who runs the whole social ecosystem. 
+    This is a Friday Patreon Exclusive! Go to patreon.com/toureshow to hear the whole ep! For $5 a month you get 4 Patreon Exclusives a month! Patreon.com/toureshow Instagram: @toureshow Twitter: @toure For information regarding your data privacy, visit <a href="http://acast.com/privacy">Privacy</a>
     {/* For information regarding your data privacy, visit <a href="http://acast.com/privacy">Privacy</a> */}
     </Card.Text>
     <Button variant="primary">Read more</Button>
