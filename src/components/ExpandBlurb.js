@@ -6,7 +6,7 @@ function ExpandBlurb() {
     const [open, setOpen] = useState(false);
   
     return (
-      <>
+      <div>
         <Button
           onClick={() => setOpen(!open)}
           aria-controls="additional-text"
@@ -21,7 +21,7 @@ function ExpandBlurb() {
             labore wes anderson cred nesciunt sapiente ea proident.
           </div>
         </Collapse>
-      </>
+      </div>
     );
   }
 

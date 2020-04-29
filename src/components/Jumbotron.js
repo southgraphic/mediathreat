@@ -15,7 +15,7 @@ class JumboTron extends React.Component {
                     <Row>
                         <Col>
             <Jumbotron className="jumbo-bg" expand="lg">
-                <p>
+                <p className="jumbo-text">
                     Testing 123
 
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi hic amet eaque aliquid nemo sint ab nulla, autem culpa provident non dolor necessitatibus nam. Totam praesentium consectetur accusantium architecto. Blanditiis.50
