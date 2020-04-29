@@ -1,5 +1,6 @@
 import React from 'react'; 
 // import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 import ExpandBlurb from './ExpandBlurb.js'
 import { Badge, Button, Card, Col, Container, Pagination, Row } from 'react-bootstrap';
 class Latest extends React.Component {
@@ -127,11 +128,14 @@ class Latest extends React.Component {
 
                 </Row>
     
+    <Router>
     <Row className="d-flex align-items-center">
-      <Col>
+      <Col className="d-flex align-items-center">
       <Container>
+      
       <Pagination>
   <Pagination.First />
+  {/* <Link to={'/home'} /> */}
   <Pagination.Prev />
   <Pagination.Item>{1}</Pagination.Item>
   <Pagination.Item>{2}</Pagination.Item>
@@ -145,6 +149,7 @@ class Latest extends React.Component {
 </Container>
       </Col>
     </Row>
+    </Router>
                 
             </Container>
           
